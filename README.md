@@ -4,7 +4,7 @@
 Group 4
 
 ## Team Members
-Ethan Berry  
+Ethan Berry [@ethanberry](https://github.com/ethanberry)
 Esha Bhat [@ohesha](https://github.com/ohesha)  
 Anna Kerber [@ackerber](https://github.com/ackerber)  
 Pranay Patel [@Pranay416](https://github.com/Pranay416)  
