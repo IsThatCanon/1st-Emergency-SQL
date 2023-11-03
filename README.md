@@ -17,6 +17,9 @@ Georgia Emergency Medical Center needed a database portraying the relationships 
 
 ## Data Model
 
+![fake-trump](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/1d16bc4b-44ca-45e9-baea-afcbea783d2b)
+
+
 The "Patients" entity serves as a central component of the database. It has a one-to-many relationship with "Medical Records," meaning that each patient can have multiple medical records associated with different visits. Additionally, there's a one-to-one relationship with "Emergency Contacts" to store essential contact information for each patient.
 
 The "Medical Staff" entity represents healthcare professionals working at the clinic. It has a one-to-many relationship with "Appointments," as each staff member can have multiple appointments. Similarly, it has a one-to-many relationship with "Medical Records" since they are responsible for documenting patient interactions and treatments.
