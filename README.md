@@ -41,6 +41,7 @@ The "Inventory" entity is connected to suppliers through a many-to-one relations
 
 “Emergency transport” records are associated with medical staff in a one-to-many relationship, indicating which medical staff members were involved in specific emergency transport incidents 
 
+![DataModel](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/c842c9a2-3e09-48c5-b49a-10f3e51438df)
 
 ## Data Dictionary
 
