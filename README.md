@@ -8,7 +8,7 @@ Ethan Berry
 Esha Bhat [@ohesha](https://github.com/ohesha)  
 Anna Kerber [@ackerber](https://github.com/ackerber)  
 Pranay Patel [@Pranay416](https://github.com/Pranay416)  
-Rafe Rynne  [@IsThatCanon](https://github.com/IsThatCanon)
+Rafe Rynne [@IsThatCanon](https://github.com/IsThatCanon)
 Jameson Shi [@jameson-shi](https://github.com/jameson-shi)
 
 ## Problem Description
