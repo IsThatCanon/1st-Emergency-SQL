@@ -181,6 +181,66 @@ Table: SUPPLIERS
 
 ## Ten Queries
 
+Query 1:
+Description: This SQL query calculates the total spending with each supplier by summing the product of unit price and quantity for items in the Inventory. It then presents the results in descending order, listing suppliers with the highest total spending first.
+Justification: This query is valuable for procurement and financial analysis as it helps identify and prioritize the suppliers with the highest total spending, enabling better supplier management and cost control.
+
+![a597494711ca4224b42c928fd70dd31a](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/b744a4c1-9108-4db1-a8c9-32754b59e238)
+
+
+Query 2:
+Description: This SQL query retrieves the first name, last name, and total billing amount for patients whose payment status is marked as 'Incomplete' in the BillingRecords, by joining the Patients and BillingRecords tables.
+Justification: This query is useful for identifying patients with incomplete payments, facilitating follow-up actions, and financial management within a healthcare system or medical practice.
+
+![7c6dcf6084bc4badaa5ce6c210d949e6](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/4180bd60-ee5b-4ceb-a172-4276c606f39b)
+
+
+
+Query 3:
+Description: This SQL query selects the first name, last name, and phone number of patients who do not have any associated emergency contacts in the EmergencyContacts table.
+Justification: This query is useful for identifying patients who may not have provided emergency contact information, allowing the healthcare facility to follow up and ensure the completeness of patient records for safety and communication purposes.
+
+![e5ab70fbc4914d76ba7e61bdf9e0c039](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/dad2dae8-fd39-497b-b27c-5490950405ec)
+
+
+
+
+
+
+
+Query 4:
+Description: This SQL query retrieves the equipment name, counts how many times each equipment has been used in appointments (UsageCount), and displays the maintenance schedule for equipment that has been used in appointments. It uses a left join between the MedicalEquipment and EquipmentUsed tables to capture equipment usage.
+Justification: This query helps in tracking the usage of medical equipment in appointments and provides information about the maintenance schedule, which is crucial for ensuring the proper functioning and upkeep of medical equipment in a healthcare facility.
+
+![5ba31a57f170493da277b81485ce3137](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/4c4ce63e-ea93-4afa-bc47-e990fc00f4fe)
+
+
+
+Query 5:
+Description: This SQL query selects the first name (fName) and last name (lName) of patients, along with the total number of appointments they have, by performing a left join between the Patients and Appointments tables.
+Justification: This query is useful for tracking and reporting on the total number of appointments for each patient, providing insights into patient engagement and scheduling patterns within a healthcare system or medical practice.
+
+![0607f326044e429db76c2e72346a02c2](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/4d4ed169-0bf4-4b6e-bc3f-02ed4fc8cc49)
+
+
+
+
+
+
+
+Query 6:
+Description: This SQL query retrieves the facility name and the count of medical equipment available in each facility, considering equipment usage, and then orders the results in descending order based on the equipment count.
+Justification: This query is valuable for assessing the inventory and utilization of medical equipment in different facilities, allowing for effective resource allocation and maintenance management based on equipment availability and usage.
+
+![a8e98f3242dd457387cb5dc3c31b4446](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/9527f24e-aeac-42bd-a6ae-09d563f00979)
+
+
+Query 7:
+Description: This SQL query retrieves the first name (fName) and last name (lName) of patients who do not have any upcoming appointments, based on the current date, and orders the results alphabetically by first name and last name.
+Justification: This query is helpful for identifying patients who do not have scheduled appointments, allowing healthcare providers to reach out to them for scheduling or follow-up, and it presents the results in an organized manner for easy reference.
+
+![3b649886efe148d895c4f5439ee1cdd2](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/95effe8b-42e8-4723-8056-f38f08ecda19)
+
 
 
 
@@ -188,19 +248,29 @@ Table: SUPPLIERS
 
 
 Query 8:
-Description: This query calculates the number of times different medical staff members have participated in emergency transports, allowing managers to assess their contributions in critical situations.
-Justification: Managers can evaluate the effectiveness and expertise of staff in emergency scenarios
+Description: This SQL query retrieves the qualifications of medical staff and counts the number of times they are associated with emergency transport events by performing a left join between the MedicalStaff and EmergencyTransport tables. It then groups the results by qualifications.
+Justification: This query is useful for analyzing the involvement of medical staff with different qualifications in emergency transport cases, which can help in resource allocation, training, and quality assessment in a healthcare setting.
 
-This one can just be considered a simple one, but i think its still very practical which is good
-
-
-
-Description: This query calculates the average billing amount based on payment status, allowing managers to assess payment patterns.
-Justification: Managers can evaluate the effectiveness of billing and collection processes
+![2ee84a2af80c46138217d0d38d78ff06](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/a865109a-5ce9-4a17-af3d-808903bdda2a)
 
 
+Query 9:
+Description: This SQL query retrieves the names and quantities of items in the inventory where the quantity on hand is less than 100, and the threshold for low quantity can be adjusted as needed.
+Justification: This query is valuable for inventory management, as it identifies items that are running low in stock, allowing for timely restocking and ensuring that necessary items are readily available.
 
-This is wrong fixing it
+![4fa1a6057f6d46459b205a2c885b8043](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/1863024c-cb5e-4bac-9dad-d4608102c24b)
+
+
+
+
+Query 10:
+Description: This SQL query retrieves information about items in the Inventory, calculates and categorizes their shelf life, and orders the results in descending order based on the shelf life category.
+Justification: This query is essential for managing inventory by providing a clear overview of items' shelf life and allowing for the identification of items with longer or shorter shelf lives, enabling more efficient inventory control and decision-making.
+
+![287f4b4dac2341f6a3ba5a30f171f60b](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/fbe4eb04-abfa-45f5-86cf-f10ecddca4c9)
+
+
+
 
 https://github.com/taralbpatel/Mist4610GroupProject1
 Here is the example project that shows the chart were gonna make and how we describe each of our queries once were done  taking a look
