@@ -270,11 +270,6 @@ Justification: This query is essential for managing inventory by providing a cle
 ![287f4b4dac2341f6a3ba5a30f171f60b](https://github.com/IsThatCanon/MIST4510_Project1/assets/149721471/fbe4eb04-abfa-45f5-86cf-f10ecddca4c9)
 
 
-
-
-https://github.com/taralbpatel/Mist4610GroupProject1
-Here is the example project that shows the chart were gonna make and how we describe each of our queries once were done  taking a look
-
 ## Database Information
 
 
